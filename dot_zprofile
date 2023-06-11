@@ -1,0 +1,24 @@
+# Skip the verification of insecure directories
+ZSH_DISABLE_COMPFIX=true
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/kristoferpearson/.oh-my-zsh"
+
+# JAVA_HOME
+export JAVA_HOME="/usr/local/opt/openjdk@17"
+
+# Activating powerlevel10k overrides $ZSH_THEME
+source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+source ~/.iterm2_shell_integration.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh

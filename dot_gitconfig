@@ -1,0 +1,10 @@
+[user]
+	name = pearsonk27
+	email = 48700390+pearsonk27@users.noreply.github.com
+[github]
+  user   = Pearsonk27
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
