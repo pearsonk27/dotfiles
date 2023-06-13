@@ -7,6 +7,7 @@ brew "node"
 brew "angular-cli"
 brew "chezmoi"
 brew "csvkit"
+brew "gh"
 brew "git"
 brew "helm"
 brew "kubernetes-cli", link: false
@@ -45,6 +46,7 @@ cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
 mas "HP Smart", id: 1474276998
+mas "Xcode", id: 497799835
 vscode "Angular.ng-template"
 vscode "ckolkman.vscode-postgres"
 vscode "dbaeumer.vscode-eslint"
